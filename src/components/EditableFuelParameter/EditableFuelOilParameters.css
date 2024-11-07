@@ -1,0 +1,43 @@
+.editable-fuel-oil-parameters {
+    margin-bottom: 16px;
+}
+
+.editable-fuel-oil-parameters .parameter {
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.editable-fuel-oil-parameters label {
+    width: 150px;
+    font-family: Arial, sans-serif;
+}
+
+.editable-fuel-oil-parameters input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+    width: calc(70% - 160px);
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+.editable-fuel-oil-parameters input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.editable-fuel-oil-parameters .readonly {
+    display: flex;
+    align-items: center;
+}
+
+.editable-fuel-oil-parameters .readonly span {
+    margin-right: 8px;
+    font-family: Arial, sans-serif;
+}
+
+.editable-fuel-oil-parameters .readonly strong {
+    color: #000;
+}

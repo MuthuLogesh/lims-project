@@ -1,0 +1,114 @@
+.LaboratoryTable-container {
+    padding: 30px;
+    background-color: #e5e5e6;
+    font-family: Arial, sans-serif;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #3984cf;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+}
+
+table tbody tr:hover {
+    background-color: #f1faff;
+}
+
+button {
+    padding: 8px 16px;
+    margin: 0 4px;
+    border: none;
+    color: white;
+    background-color: #007bff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button[disabled] {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+button.saveButton {
+    padding: 8px 16px;
+    margin: 0 4px;
+    border: none;
+    color: white;
+    background-color: #28a745;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button.cancelButton {
+    padding: 8px 16px;
+    margin: 0 4px;
+    border: none;
+    color: white;
+    background-color: #e57373;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination button {
+    margin: 0 5px;
+}
+
+.pagination span {
+    margin: 0 10px;
+}
+
+button#add-laboratory-btn {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #28a745;
+}
+
+button#add-laboratory-btn:hover {
+    background-color: #218838;
+}
+
+.pagination button.active {
+    font-weight: bold;
+    color: white;
+    background-color: lightgray;
+    border: 1px solid blue;
+}
+
+.pagination button:disabled {
+    background-color: lightgray;
+    cursor: not-allowed;
+}

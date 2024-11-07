@@ -1,0 +1,150 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    background-color: #fafafa;
+}
+
+h2 {
+    font-size: 1.8em;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.flex-row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 16px;
+}
+
+.form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+button.saveButton {
+    padding: 8px 16px;
+    margin: 0 4px;
+    border: none;
+    color: white;
+    background-color: #28a745;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button.cancelButton {
+    padding: 8px 16px;
+    margin: 0 4px;
+    border: none;
+    color: white;
+    background-color: #e57373;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.error {
+    color: #dc3545;
+    font-size: 0.85em;
+    margin-top: 4px;
+}
+
+.equipment-container {
+    display: flex;
+    align-items: center;
+}
+
+.equipment-container input {
+    flex: 1;
+    margin: 0 10px 20px 0;
+    padding: 8px;
+}
+
+.icon-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.icon-button:hover {
+    color: #0056b3;
+}
+
+.form-group select {
+    height: 40px;
+}
+
+h3 {
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.required-symbol {
+    color: red;
+    font-weight: bold;
+}
+
+.button-group{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.page-title {
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-right: 565px;
+}
+
+.laboratory-list-container {
+    padding: 20px;
+    background-color: #f0f0f4;
+}
+
